@@ -13,8 +13,8 @@ A curated list of backend interview questions.
 
 ## <a name='general'>General/Ice Breaker</a>
 
->You’re looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they’re working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they’re capable of meeting the VMware bar.
-Once you’ve calmed a nervous candidate’s nerves or determined level of passion/enthusiasm, move on to the next set of questions. Try to spend a maximum of 5 minutes on this section.
+>You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting the your bar.
+Once you've calmed a nervous candidate's nerves or determined level of passion/enthusiasm, move on to the next set of questions. Try to spend a maximum of 5 minutes on this section.
 
 * Tell us about your most recent project.
 * Do you ever do any coding in your personal time (outside of work)?
@@ -80,7 +80,7 @@ event candidates is that they are very strong in this area.
 
   Jobs are created by users, so each job is associated with a certain user id. The execution time of a job varies. It is possible a job takes hours up­ to days. There's a fixed number of job consumers and each of them pops a job from the queue and executes it.
 
-  In such a system like above, a common problem is if a user creates too many jobs and each takes quite long time to execute, he may exhausts all the job consumers and other users can’t get their jobs run.
+  In such a system like above, a common problem is if a user creates too many jobs and each takes quite long time to execute, he may exhausts all the job consumers and other users can't get their jobs run.
 
   To improve the quality of service, only one job from the same user can be executed at the same time, and no more than `M` jobs can be queued for the same user (all up­coming jobs will be rejected).
   The order of jobs pushed by the same user must be preserved.
@@ -157,7 +157,7 @@ event candidates is that they are very strong in this area.
 
   The problem with above logic is: 
 
-  * when there’s multiple clients working concurrently
+  * when there's multiple clients working concurrently
   * the above logic is not atomic
 
   Questions:
@@ -179,7 +179,7 @@ event candidates is that they are very strong in this area.
   bool rectOverlap(constRect &r1, const Rect &r2, Rect& overlap);
   ~~~
 
-  If there’s an overlapping, fill overlap with the overlapped area then return true, otherwise, leave overlap untouched then return false.
+  If there's an overlapping, fill overlap with the overlapped area then return true, otherwise, leave overlap untouched then return false.
 
 
 ## <a name='linux'>Backend Linux</a>
@@ -196,7 +196,7 @@ event candidates is that they are very strong in this area.
 * What's umask?
 * Tell me as many ways as you can to copy a file to remote server in bash.
 * Do you know the meaning for these commands: ps/sort/awk/join/pwd/iostat/vmstat/top/kill?
-* Let’s assume that host is a local machine, and host2 is a remote machine. But as for kinds of reasons, these two computers couldn’t communicate between each other. But, there is another one host named host3 and it could connect to host1 and host2. So how can I let host1 connect to host2?
+* Let's assume that host is a local machine, and host2 is a remote machine. But as for kinds of reasons, these two computers couldn't communicate between each other. But, there is another one host named host3 and it could connect to host1 and host2. So how can I let host1 connect to host2?
 * Changing filenames in batch using shell scripts. eg: aa-1.1.txt -> aa.txt; ab-1.2.3.4.txt -> ab.txt; aa-bb-cc-1.1.txt -> aa-bb-cc.txt.
 * Read a file of text, determine the n most frequently used words, and print out a sorted list of those words along with their frequencies.
 
