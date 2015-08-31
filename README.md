@@ -20,6 +20,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Do you ever do any coding in your personal time (outside of work)?
 * Do you have a account on Github?
   * If so, what are some examples of repos you follow?
+* Tell us what critical problems you have to handle in your latest projects?
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
 
