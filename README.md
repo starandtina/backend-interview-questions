@@ -3,6 +3,7 @@ A curated list of backend interview questions.
 # Table of Contents
 
   1. [General Questions/Ice Breaker](#general)
+  1. [Management Questions](#management)
   1. [Algos, Data Structures, & Computer Science Fundamentals Questions](#algorithms)
   1. [Design Questions](#design)
   1. [Backend Linux Questions](#linux)
@@ -21,6 +22,45 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Do you have a account on Github?
   * If so, what are some examples of repos you follow?
 * Tell us what critical problems you have to handle in your latest projects?
+* Why did you get into development?
+* How many technical books did you read in the past year?
+* What was your favorite technical book in the past year? What did you learn from it?
+* What websites do you read regularly, related to development?
+* Do you maintain any open-source projects?
+* Do you code in your spare-time?
+* Do you love programming, or do you do it for the money?
+* Have you accomplished anything important in your career yet? Do you want to?
+* What would make you feel that you have done something important?
+* What's your favorite programming language? Why?
+* If you could add one feature to your favorite language, what would it be? Why?
+* If you could remove one feature from it, what would it be? Why?
+
+## <a name='management'>Management</a>
+
+* How to tackle a story/task which is difficult to estimate and with high risk?
+
+>
+  - Investigate as early as possible
+  - Assign senior staffs on the problem
+  - More frequent update and more communication
+  - Report higher level supervisors to be aware of the situation
+
+* How to react to unexpected/frequent requirement changes, considering PoC phase and production phase.
+
+>
+  - For PoC:
+    - communicate with team members to let them know things are changing.
+    - Proving the solution is more important than perfect design/implementation. For requirement changes, argue for the reason. If it is business reason, mostly we should follow. If it is technical reason, we should discuss first and then make decision.
+  - For production:
+    - Setup a process first. A requirement change should result in following reactions after replan (re-estimation):
+         - If it is not so urgent, keep working, change the future plan
+         - If it is urgent, either request resource (considering the
+ramp-up cost) or cut features
+         - If not possible, suggest delay the release date
+
+* How to keep a team stable with limited offer. (How's about if you can't increase the compensation while the competitors can give more)
+
+>Basically, setup a good working environment all the time, making team members work happily, and with good development direction and opportunity. If things really happens, resort to higher-level manager and HR to find out a solution.
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
 
