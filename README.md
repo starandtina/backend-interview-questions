@@ -7,7 +7,6 @@ A curated list of backend interview questions.
   1. [Algos, Data Structures, & Computer Science Fundamentals Questions](#algorithms)
   1. [Design Questions](#design)
   1. [Backend Linux Questions](#linux)
-  1. [Management Questions](#management)
 
 ----
 
@@ -34,6 +33,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What's your favorite programming language? Why?
 * If you could add one feature to your favorite language, what would it be? Why?
 * If you could remove one feature from it, what would it be? Why?
+* Suppose you could design your dream job that you'll be starting on Monday. It's at your ideal company with your ideal job title and salary. All you have to do is tell them what you want to do at your job and you can have it. What does your job entail? (Thanks! [nczonline](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/))
 
 ## <a name='management'>Management</a>
 
@@ -240,10 +240,3 @@ event candidates is that they are very strong in this area.
 * Let's assume that host is a local machine, and host2 is a remote machine. But as for kinds of reasons, these two computers couldn't communicate between each other. But, there is another one host named host3 and it could connect to host1 and host2. So how can I let host1 connect to host2?
 * Changing filenames in batch using shell scripts. eg: aa-1.1.txt -> aa.txt; ab-1.2.3.4.txt -> ab.txt; aa-bb-cc-1.1.txt -> aa-bb-cc.txt.
 * Read a file of text, determine the n most frequently used words, and print out a sorted list of those words along with their frequencies.
-
-
-## <a name='management'>Management</a>
-
-* How to tackle a task which is difficult to estimate and with high risk?
-* How to react to unexpected/frequent requirement changes? Considering PoC phase and production phase.
-* How to keep a team stable with limited offer(you can't increase the compensation while the competitors can give more).
